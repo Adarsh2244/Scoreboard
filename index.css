@@ -1,0 +1,54 @@
+.container{
+    max-width:450px;
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+    background-color: blue;
+    margin:0px auto;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.home,.Guest{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.home_team,.guest_team{
+    width:160px;
+    height:100px;
+    background:black;
+}
+#home_score,#guest_score{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:1000px;
+}
+.home_name,.guest_name{
+    font-size: 50px;
+    color:white;
+    margin-bottom:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home_score,#guest_score{
+    color:red;
+    font-size: 50px;
+    margin-top: 25px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border :2px solid white;
+    border-radius: 4px;
+    cursor:pointer;
+    padding : 8px 12px;
+}
+.home_scores,.guest_scores{
+    display:flex;
+    justify-content:space-between;
+    padding-top :20px;
+}
+button:hover{
+    background-color: white;
+    color: blue;
+}
